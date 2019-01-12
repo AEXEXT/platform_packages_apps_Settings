@@ -100,7 +100,6 @@ import com.android.settings.wifi.WifiSettings;
 
 import org.aospextended.extensions.fragments.HeadsUpSettings;
 import org.aospextended.extensions.fragments.AmbientTicker;
-import org.aospextended.extensions.fragments.BatteryBar;
 import org.aospextended.extensions.fragments.BatteryLightSettings;
 import org.aospextended.extensions.fragments.Buttons;
 import org.aospextended.extensions.fragments.CarrierLabel;
@@ -116,7 +115,6 @@ import org.aospextended.extensions.fragments.RecentsUI;
 import org.aospextended.extensions.fragments.ScreenStateToggles;
 import org.aospextended.extensions.fragments.StatusbarBatteryStyle;
 import org.aospextended.extensions.fragments.Traffic;
-import org.aospextended.extensions.fragments.Animations;
 import com.android.settings.smartnav.FlingSettings;
 import com.android.settings.smartnav.PulseSettings;
 import com.android.settings.smartnav.SmartbarSettings;
@@ -219,7 +217,6 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         //AEX Additions
         addIndex(HeadsUpSettings.class);
         addIndex(AmbientTicker.class);
-        addIndex(BatteryBar.class);
         addIndex(BatteryLightSettings.class);
         addIndex(Buttons.class);
         addIndex(CarrierLabel.class);
@@ -235,7 +232,6 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(ScreenStateToggles.class);
         addIndex(StatusbarBatteryStyle.class);
         addIndex(Traffic.class);
-        addIndex(Animations.class);
         addIndex(FlingSettings.class);
         addIndex(PulseSettings.class);
         addIndex(SmartbarSettings.class);
